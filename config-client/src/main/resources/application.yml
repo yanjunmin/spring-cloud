@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master #指明远程仓库的分支
+      profile: dev
+      uri: http://127.0.0.1:8888/ #指明配置服务中心的网址
+server:
+  port: 8895
